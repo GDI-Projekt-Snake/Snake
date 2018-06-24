@@ -1,0 +1,139 @@
+\hypertarget{class_esp_server}{}\section{Esp\+Server Class Reference}
+\label{class_esp_server}\index{Esp\+Server@{Esp\+Server}}
+
+
+{\ttfamily \#include $<$Dumb\+Server.\+h$>$}
+
+Inheritance diagram for Esp\+Server\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_esp_server}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_esp_server_aa852bdd3db81410e2b71cafa8adb5c79}{Esp\+Server}} (void)
+\item 
+void \mbox{\hyperlink{class_esp_server_a1d8682ca0934af03639311e23a71283f}{begin}} (Stream $\ast$esp\+\_\+serial, const char $\ast$ssid, const char $\ast$pass, uint16\+\_\+t port)
+\item 
+void \mbox{\hyperlink{class_esp_server_a01953c4cc039c37f94dc3e1057126abb}{my\+\_\+ip}} (char $\ast$buf, size\+\_\+t buflen)
+\item 
+bool \mbox{\hyperlink{class_esp_server_a59fc494d53391b27e2fd75cb750690d9}{connected}} ()
+\item 
+virtual int \mbox{\hyperlink{class_esp_server_a4549a76725f2e4c013e4d57018366109}{available}} ()
+\item 
+virtual int \mbox{\hyperlink{class_esp_server_a9040fa1d479d71edf3a826f4691c35c4}{peek}} ()
+\item 
+virtual int \mbox{\hyperlink{class_esp_server_aaab5dab5b969a87f538242e524431637}{read}} ()
+\item 
+virtual void \mbox{\hyperlink{class_esp_server_adac116554b543b7c4228c018a85882f5}{flush}} ()
+\item 
+virtual size\+\_\+t \mbox{\hyperlink{class_esp_server_a7c66fc8d559f4956d4ccea196299bca7}{write}} (const uint8\+\_\+t $\ast$buffer, size\+\_\+t size)
+\item 
+size\+\_\+t \mbox{\hyperlink{class_esp_server_af32c245c813bbadb566538bba418b0fe}{write}} (uint8\+\_\+t n)
+\item 
+size\+\_\+t \mbox{\hyperlink{class_esp_server_a0ba52a995edf9b6c2cdf3d396be84ff1}{write}} (unsigned long n)
+\item 
+size\+\_\+t \mbox{\hyperlink{class_esp_server_a3cfec102ee6f58a2f7e617999ce9f5bb}{write}} (long n)
+\item 
+size\+\_\+t \mbox{\hyperlink{class_esp_server_a2d9bc6ac05e45a7023be3cd1ca224407}{write}} (unsigned int n)
+\item 
+size\+\_\+t \mbox{\hyperlink{class_esp_server_a22e7ab55e0aa268cff5b48e763429ec3}{write}} (int n)
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_esp_server_aa852bdd3db81410e2b71cafa8adb5c79}\label{class_esp_server_aa852bdd3db81410e2b71cafa8adb5c79}} 
+\index{Esp\+Server@{Esp\+Server}!Esp\+Server@{Esp\+Server}}
+\index{Esp\+Server@{Esp\+Server}!Esp\+Server@{Esp\+Server}}
+\subsubsection{\texorpdfstring{Esp\+Server()}{EspServer()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_esp_server}{Esp\+Server}} (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_esp_server_a4549a76725f2e4c013e4d57018366109}\label{class_esp_server_a4549a76725f2e4c013e4d57018366109}} 
+\index{Esp\+Server@{Esp\+Server}!available@{available}}
+\index{available@{available}!Esp\+Server@{Esp\+Server}}
+\subsubsection{\texorpdfstring{available()}{available()}}
+{\footnotesize\ttfamily int available (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{class_esp_server_a1d8682ca0934af03639311e23a71283f}\label{class_esp_server_a1d8682ca0934af03639311e23a71283f}} 
+\index{Esp\+Server@{Esp\+Server}!begin@{begin}}
+\index{begin@{begin}!Esp\+Server@{Esp\+Server}}
+\subsubsection{\texorpdfstring{begin()}{begin()}}
+{\footnotesize\ttfamily void begin (\begin{DoxyParamCaption}\item[{Stream $\ast$}]{esp\+\_\+serial,  }\item[{const char $\ast$}]{ssid,  }\item[{const char $\ast$}]{pass,  }\item[{uint16\+\_\+t}]{port }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_esp_server_a59fc494d53391b27e2fd75cb750690d9}\label{class_esp_server_a59fc494d53391b27e2fd75cb750690d9}} 
+\index{Esp\+Server@{Esp\+Server}!connected@{connected}}
+\index{connected@{connected}!Esp\+Server@{Esp\+Server}}
+\subsubsection{\texorpdfstring{connected()}{connected()}}
+{\footnotesize\ttfamily bool connected (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_esp_server_adac116554b543b7c4228c018a85882f5}\label{class_esp_server_adac116554b543b7c4228c018a85882f5}} 
+\index{Esp\+Server@{Esp\+Server}!flush@{flush}}
+\index{flush@{flush}!Esp\+Server@{Esp\+Server}}
+\subsubsection{\texorpdfstring{flush()}{flush()}}
+{\footnotesize\ttfamily void flush (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{class_esp_server_a01953c4cc039c37f94dc3e1057126abb}\label{class_esp_server_a01953c4cc039c37f94dc3e1057126abb}} 
+\index{Esp\+Server@{Esp\+Server}!my\+\_\+ip@{my\+\_\+ip}}
+\index{my\+\_\+ip@{my\+\_\+ip}!Esp\+Server@{Esp\+Server}}
+\subsubsection{\texorpdfstring{my\+\_\+ip()}{my\_ip()}}
+{\footnotesize\ttfamily void my\+\_\+ip (\begin{DoxyParamCaption}\item[{char $\ast$}]{buf,  }\item[{size\+\_\+t}]{buflen }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_esp_server_a9040fa1d479d71edf3a826f4691c35c4}\label{class_esp_server_a9040fa1d479d71edf3a826f4691c35c4}} 
+\index{Esp\+Server@{Esp\+Server}!peek@{peek}}
+\index{peek@{peek}!Esp\+Server@{Esp\+Server}}
+\subsubsection{\texorpdfstring{peek()}{peek()}}
+{\footnotesize\ttfamily int peek (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{class_esp_server_aaab5dab5b969a87f538242e524431637}\label{class_esp_server_aaab5dab5b969a87f538242e524431637}} 
+\index{Esp\+Server@{Esp\+Server}!read@{read}}
+\index{read@{read}!Esp\+Server@{Esp\+Server}}
+\subsubsection{\texorpdfstring{read()}{read()}}
+{\footnotesize\ttfamily int read (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{class_esp_server_a7c66fc8d559f4956d4ccea196299bca7}\label{class_esp_server_a7c66fc8d559f4956d4ccea196299bca7}} 
+\index{Esp\+Server@{Esp\+Server}!write@{write}}
+\index{write@{write}!Esp\+Server@{Esp\+Server}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [1/6]}}
+{\footnotesize\ttfamily size\+\_\+t write (\begin{DoxyParamCaption}\item[{const uint8\+\_\+t $\ast$}]{buffer,  }\item[{size\+\_\+t}]{size }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{class_esp_server_af32c245c813bbadb566538bba418b0fe}\label{class_esp_server_af32c245c813bbadb566538bba418b0fe}} 
+\index{Esp\+Server@{Esp\+Server}!write@{write}}
+\index{write@{write}!Esp\+Server@{Esp\+Server}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [2/6]}}
+{\footnotesize\ttfamily size\+\_\+t write (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_esp_server_a0ba52a995edf9b6c2cdf3d396be84ff1}\label{class_esp_server_a0ba52a995edf9b6c2cdf3d396be84ff1}} 
+\index{Esp\+Server@{Esp\+Server}!write@{write}}
+\index{write@{write}!Esp\+Server@{Esp\+Server}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [3/6]}}
+{\footnotesize\ttfamily size\+\_\+t write (\begin{DoxyParamCaption}\item[{unsigned long}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_esp_server_a3cfec102ee6f58a2f7e617999ce9f5bb}\label{class_esp_server_a3cfec102ee6f58a2f7e617999ce9f5bb}} 
+\index{Esp\+Server@{Esp\+Server}!write@{write}}
+\index{write@{write}!Esp\+Server@{Esp\+Server}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [4/6]}}
+{\footnotesize\ttfamily size\+\_\+t write (\begin{DoxyParamCaption}\item[{long}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_esp_server_a2d9bc6ac05e45a7023be3cd1ca224407}\label{class_esp_server_a2d9bc6ac05e45a7023be3cd1ca224407}} 
+\index{Esp\+Server@{Esp\+Server}!write@{write}}
+\index{write@{write}!Esp\+Server@{Esp\+Server}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [5/6]}}
+{\footnotesize\ttfamily size\+\_\+t write (\begin{DoxyParamCaption}\item[{unsigned int}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_esp_server_a22e7ab55e0aa268cff5b48e763429ec3}\label{class_esp_server_a22e7ab55e0aa268cff5b48e763429ec3}} 
+\index{Esp\+Server@{Esp\+Server}!write@{write}}
+\index{write@{write}!Esp\+Server@{Esp\+Server}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [6/6]}}
+{\footnotesize\ttfamily size\+\_\+t write (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/soere/\+Desktop/\+Projekt Snake/\+Projekt\+\_\+\+Snake/\mbox{\hyperlink{_dumb_server_8h}{Dumb\+Server.\+h}}\item 
+C\+:/\+Users/soere/\+Desktop/\+Projekt Snake/\+Projekt\+\_\+\+Snake/\mbox{\hyperlink{_dumb_server_8cpp}{Dumb\+Server.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,51 @@
+\hypertarget{_dumb_server_8cpp}{}\section{C\+:/\+Users/soere/\+Desktop/\+Projekt Snake/\+Projekt\+\_\+\+Snake/\+Dumb\+Server.cpp File Reference}
+\label{_dumb_server_8cpp}\index{C\+:/\+Users/soere/\+Desktop/\+Projekt Snake/\+Projekt\+\_\+\+Snake/\+Dumb\+Server.\+cpp@{C\+:/\+Users/soere/\+Desktop/\+Projekt Snake/\+Projekt\+\_\+\+Snake/\+Dumb\+Server.\+cpp}}
+{\ttfamily \#include $<$Arduino.\+h$>$}\newline
+{\ttfamily \#include $<$Stream.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Dumb\+Server.\+h\char`\"{}}\newline
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{_dumb_server_8cpp_af9850325c242ec48a5d70923c6147de5}{E\+S\+P\+\_\+\+S\+U\+C\+E\+S\+S\+\_\+\+R\+E\+A\+DY}}~((char $\ast$)\char`\"{}ready\textbackslash{}r\textbackslash{}n\char`\"{})
+\item 
+\#define \mbox{\hyperlink{_dumb_server_8cpp_a62497fcb12b1cedd5fdfbc0755508d87}{E\+S\+P\+\_\+\+S\+U\+C\+E\+S\+S\+\_\+\+OK}}~((char $\ast$)\char`\"{}O\+K\textbackslash{}r\textbackslash{}n\char`\"{})
+\item 
+\#define \mbox{\hyperlink{_dumb_server_8cpp_a88793823cf689f8ac75d2b9df8e1ca15}{E\+S\+P\+\_\+\+S\+U\+C\+E\+S\+S\+\_\+\+P\+KG}}~((char $\ast$)\char`\"{}+I\+PD,\char`\"{})
+\item 
+\#define \mbox{\hyperlink{_dumb_server_8cpp_a4a3c8fcc7b628944ea321ad928a00bd9}{E\+S\+P\+\_\+\+S\+U\+C\+E\+S\+S\+\_\+\+I\+PQ}}~((char $\ast$)\char`\"{}+C\+I\+P\+S\+T\+A\+\_\+\+C\+U\+R\+:ip\+:\textbackslash{}\char`\"{}\char`\"{})
+\item 
+\#define \mbox{\hyperlink{_dumb_server_8cpp_a3df41d167aea12431009366bf32f28b3}{E\+S\+P\+\_\+\+S\+U\+C\+E\+S\+S\+\_\+\+S\+E\+NT}}~((char $\ast$)\char`\"{}S\+E\+ND O\+K\textbackslash{}r\textbackslash{}n\char`\"{})
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{_dumb_server_8cpp_a4a3c8fcc7b628944ea321ad928a00bd9}\label{_dumb_server_8cpp_a4a3c8fcc7b628944ea321ad928a00bd9}} 
+\index{Dumb\+Server.\+cpp@{Dumb\+Server.\+cpp}!E\+S\+P\+\_\+\+S\+U\+C\+E\+S\+S\+\_\+\+I\+PQ@{E\+S\+P\+\_\+\+S\+U\+C\+E\+S\+S\+\_\+\+I\+PQ}}
+\index{E\+S\+P\+\_\+\+S\+U\+C\+E\+S\+S\+\_\+\+I\+PQ@{E\+S\+P\+\_\+\+S\+U\+C\+E\+S\+S\+\_\+\+I\+PQ}!Dumb\+Server.\+cpp@{Dumb\+Server.\+cpp}}
+\subsubsection{\texorpdfstring{E\+S\+P\+\_\+\+S\+U\+C\+E\+S\+S\+\_\+\+I\+PQ}{ESP\_SUCESS\_IPQ}}
+{\footnotesize\ttfamily \#define E\+S\+P\+\_\+\+S\+U\+C\+E\+S\+S\+\_\+\+I\+PQ~((char $\ast$)\char`\"{}+C\+I\+P\+S\+T\+A\+\_\+\+C\+U\+R\+:ip\+:\textbackslash{}\char`\"{}\char`\"{})}
+
+\mbox{\Hypertarget{_dumb_server_8cpp_a62497fcb12b1cedd5fdfbc0755508d87}\label{_dumb_server_8cpp_a62497fcb12b1cedd5fdfbc0755508d87}} 
+\index{Dumb\+Server.\+cpp@{Dumb\+Server.\+cpp}!E\+S\+P\+\_\+\+S\+U\+C\+E\+S\+S\+\_\+\+OK@{E\+S\+P\+\_\+\+S\+U\+C\+E\+S\+S\+\_\+\+OK}}
+\index{E\+S\+P\+\_\+\+S\+U\+C\+E\+S\+S\+\_\+\+OK@{E\+S\+P\+\_\+\+S\+U\+C\+E\+S\+S\+\_\+\+OK}!Dumb\+Server.\+cpp@{Dumb\+Server.\+cpp}}
+\subsubsection{\texorpdfstring{E\+S\+P\+\_\+\+S\+U\+C\+E\+S\+S\+\_\+\+OK}{ESP\_SUCESS\_OK}}
+{\footnotesize\ttfamily \#define E\+S\+P\+\_\+\+S\+U\+C\+E\+S\+S\+\_\+\+OK~((char $\ast$)\char`\"{}O\+K\textbackslash{}r\textbackslash{}n\char`\"{})}
+
+\mbox{\Hypertarget{_dumb_server_8cpp_a88793823cf689f8ac75d2b9df8e1ca15}\label{_dumb_server_8cpp_a88793823cf689f8ac75d2b9df8e1ca15}} 
+\index{Dumb\+Server.\+cpp@{Dumb\+Server.\+cpp}!E\+S\+P\+\_\+\+S\+U\+C\+E\+S\+S\+\_\+\+P\+KG@{E\+S\+P\+\_\+\+S\+U\+C\+E\+S\+S\+\_\+\+P\+KG}}
+\index{E\+S\+P\+\_\+\+S\+U\+C\+E\+S\+S\+\_\+\+P\+KG@{E\+S\+P\+\_\+\+S\+U\+C\+E\+S\+S\+\_\+\+P\+KG}!Dumb\+Server.\+cpp@{Dumb\+Server.\+cpp}}
+\subsubsection{\texorpdfstring{E\+S\+P\+\_\+\+S\+U\+C\+E\+S\+S\+\_\+\+P\+KG}{ESP\_SUCESS\_PKG}}
+{\footnotesize\ttfamily \#define E\+S\+P\+\_\+\+S\+U\+C\+E\+S\+S\+\_\+\+P\+KG~((char $\ast$)\char`\"{}+I\+PD,\char`\"{})}
+
+\mbox{\Hypertarget{_dumb_server_8cpp_af9850325c242ec48a5d70923c6147de5}\label{_dumb_server_8cpp_af9850325c242ec48a5d70923c6147de5}} 
+\index{Dumb\+Server.\+cpp@{Dumb\+Server.\+cpp}!E\+S\+P\+\_\+\+S\+U\+C\+E\+S\+S\+\_\+\+R\+E\+A\+DY@{E\+S\+P\+\_\+\+S\+U\+C\+E\+S\+S\+\_\+\+R\+E\+A\+DY}}
+\index{E\+S\+P\+\_\+\+S\+U\+C\+E\+S\+S\+\_\+\+R\+E\+A\+DY@{E\+S\+P\+\_\+\+S\+U\+C\+E\+S\+S\+\_\+\+R\+E\+A\+DY}!Dumb\+Server.\+cpp@{Dumb\+Server.\+cpp}}
+\subsubsection{\texorpdfstring{E\+S\+P\+\_\+\+S\+U\+C\+E\+S\+S\+\_\+\+R\+E\+A\+DY}{ESP\_SUCESS\_READY}}
+{\footnotesize\ttfamily \#define E\+S\+P\+\_\+\+S\+U\+C\+E\+S\+S\+\_\+\+R\+E\+A\+DY~((char $\ast$)\char`\"{}ready\textbackslash{}r\textbackslash{}n\char`\"{})}
+
+\mbox{\Hypertarget{_dumb_server_8cpp_a3df41d167aea12431009366bf32f28b3}\label{_dumb_server_8cpp_a3df41d167aea12431009366bf32f28b3}} 
+\index{Dumb\+Server.\+cpp@{Dumb\+Server.\+cpp}!E\+S\+P\+\_\+\+S\+U\+C\+E\+S\+S\+\_\+\+S\+E\+NT@{E\+S\+P\+\_\+\+S\+U\+C\+E\+S\+S\+\_\+\+S\+E\+NT}}
+\index{E\+S\+P\+\_\+\+S\+U\+C\+E\+S\+S\+\_\+\+S\+E\+NT@{E\+S\+P\+\_\+\+S\+U\+C\+E\+S\+S\+\_\+\+S\+E\+NT}!Dumb\+Server.\+cpp@{Dumb\+Server.\+cpp}}
+\subsubsection{\texorpdfstring{E\+S\+P\+\_\+\+S\+U\+C\+E\+S\+S\+\_\+\+S\+E\+NT}{ESP\_SUCESS\_SENT}}
+{\footnotesize\ttfamily \#define E\+S\+P\+\_\+\+S\+U\+C\+E\+S\+S\+\_\+\+S\+E\+NT~((char $\ast$)\char`\"{}S\+E\+ND O\+K\textbackslash{}r\textbackslash{}n\char`\"{})}
+
